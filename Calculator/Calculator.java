@@ -33,6 +33,9 @@ class Calculator
 	    		return answer;
 	    	}
 	    }
+	    boolean ext(){
+	    	return true;
+	    }
 	    
 }
  
