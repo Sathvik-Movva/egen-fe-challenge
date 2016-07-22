@@ -2,10 +2,17 @@ package sample;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-public class ScientificCalculatorTest {
-
+public class ScientificCalculatorTest{
+	
+	@Test
+	public void test0() {
+		Calculator cal = new Calculator();
+		boolean result = cal.ext();
+        assertEquals(true,result);
+    }   
 	@Test
 	public void test() {
 		ScientificCalculator scal = new ScientificCalculator();

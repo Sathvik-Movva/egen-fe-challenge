@@ -1,6 +1,6 @@
 package sample;
 
-public class ScientificCalculator {
+public class ScientificCalculator extends Calculator{
 			
 			//sin method
 		    double sine(double a){
